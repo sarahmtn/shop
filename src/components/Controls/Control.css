@@ -1,0 +1,33 @@
+.controls{
+    width: 97%;
+    background-color: rgb(236, 234, 234);
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: grid; 
+    grid-template-columns: 55% 55%;
+    grid-template-rows: 100px 100px 100px 100px 100PX;
+}
+
+.order-btn{
+    width: 91%;
+    background: rgb(214, 106, 187);
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    margin-top: 20px;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.shoppingicon{
+    padding-right: 12px;
+}

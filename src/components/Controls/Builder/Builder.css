@@ -1,0 +1,32 @@
+.builder{
+    display:grid;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    grid-template-columns: 150px 150px 150px 150px;
+
+}
+
+.builder button{
+    display: block;
+    padding: 5px;
+    margin: 0 12px;
+    width: 80px;
+    background: purple;
+    color:aliceblue;
+    border: none;
+    border-radius: 3px;
+    outline:none;
+}
+
+.builder div{
+    color: blueviolet;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.mahsolat{
+    display:grid;
+    justify-content: right;
+    z-index: 1;
+}

@@ -1,0 +1,14 @@
+.nav-items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+}
+
+.profileicon{
+    align-self: center;
+    padding-left: 15px;
+    padding-top: 5px;
+}
